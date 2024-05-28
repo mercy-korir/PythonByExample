@@ -7,7 +7,7 @@
 #to the first question, display the answer “Enjoy your day”.
 weather=input('Is it raining?')
 weather=str.lower(weather)
-if weather=='yes':
+if weather=='Yes':
     weather2=input('Is it windy')
     weather2=str.lower(weather)
     if weather2=='Yes':

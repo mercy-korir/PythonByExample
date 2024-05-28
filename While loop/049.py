@@ -11,13 +11,12 @@ user=int(input('Guess a number'))
 while user != compnum:
     if user <compnum:
         print('Too low')
-    elif:
+    else: 
         user> compnum
-        print('Too high')
-        count=count+1
-    else:
-        user = int(input('Guess a number'))
-        print('well done you took',count,'attempts')
+    print('Too high')
+    count=count+1
+    user = int(input('Guess a number'))
+    print('well done you took',count,'attempts')
 
 
     

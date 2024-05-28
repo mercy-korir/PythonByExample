@@ -5,7 +5,6 @@ then display the message “The last number you entered
 was a [number]” and stop the program'''
 total=0
 while total <=5:
-    number=int(input('Please input a number '))
+    number=int(input('Please input a number'))
     print('The last number you entered was a',number)
-    if total>=5:
-        break
+  

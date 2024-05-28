@@ -13,7 +13,7 @@ while name=='y':
     print(name1,'has been invited')
     count=count+1
     name3=input('Do you wish to add another person? y/n')
-    print(count,'have been invited to a party')
+    print(count,'are coming for the party')
 
 
 

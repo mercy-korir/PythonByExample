@@ -5,6 +5,6 @@ if user1>=18:
 elif user1==17:
     print('You can learn to drive')
 elif user1==16:
-    print('You canbuy a lottery ticket')
+    print('You can buy a lottery ticket')
 else:
     print('You can do trick or treating')
