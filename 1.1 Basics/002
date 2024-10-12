@@ -1,0 +1,5 @@
+'''002  Ask for the user’s first name and then ask for their surname 
+and display the output message Hello [First Name] [Surname]. '''
+first_name=input('What is your first name?')
+sur_name=input('Please share your surname')
+print('Hello',first_name, sur_name)

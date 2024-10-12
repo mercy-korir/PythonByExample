@@ -1,0 +1,10 @@
+''' 008  
+Ask for the total price of the bill, then ask how 
+many diners there are. Divide the total bill by the 
+number of diners and show how much each 
+person must pay. '''
+bill=int(input('How much is the bill for the dinner?'))
+dinners=int(input('How many people came for the diner?'))
+price=bill/dinners
+print('Everyone should pay',price,'for the dinner')
+

@@ -1,0 +1,13 @@
+'''006  Ask how many slices of pizza the user started with and ask how many slices 
+they have eaten. Work out how many slices they have left and display the answer in a user
+friendly format. '''
+pizza=int(input('How many slices of Pizza did you have?'))
+pizza_2=int(input('How may slices have you eaten?'))
+rem_pizza=pizza-pizza_2
+
+if pizza_2>=pizza:
+    print('Invalid answer')
+else:
+   print('You have',rem_pizza,'Pizza remaining')
+   
+

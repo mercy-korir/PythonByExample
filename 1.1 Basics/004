@@ -1,0 +1,8 @@
+'''004  
+Ask the user to enter two numbers. Add 
+them together and display the answer as The total is [answer]. '''
+number=int(input('Please input the first number'))
+number2_=int(input('Please input the second number'))
+total=number+number2_
+print('The total is', total,'.')
+

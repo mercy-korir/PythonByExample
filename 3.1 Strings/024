@@ -1,0 +1,5 @@
+'''024  Ask the user to type in any word and display it in 
+upper case. '''
+Colour=input('What is your favourite colour')
+Colour=Colour.upper()
+print( Colour)

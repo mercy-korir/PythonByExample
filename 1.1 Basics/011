@@ -1,0 +1,12 @@
+'''011  
+Task the user to enter a number over 100 and then enter a number under 
+10 and tell them how many times the smaller number goes into the larger 
+number in a user-friendly format.'''
+number1=int(input('Insert a number over 100'))
+number2=int(input('Insert a number below 10'))
+answer=number1/number2
+if number1>100 and number2<10:
+    print(number2,'is',answer,'times of',number1)
+else:
+    print('Invalid entry')
+
